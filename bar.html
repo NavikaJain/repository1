@@ -1,0 +1,47 @@
+<style>
+  .container {
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    height: 500px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    border: solid 5px #ff7585;
+    border-radius: 50px 0 50px 0;
+  }
+  .bar {
+    width: 100px;
+    height: 20px;
+    background: #ff7585;
+  }
+  .bar1,
+  .bar4,
+  .bar7 {
+    height: 200px;
+  }
+  .bar2,
+  .bar5 {
+    height: 150px;
+  }
+  .bar3,
+  .bar6 {
+    height: 250px;
+  }
+  .bar3 {
+    align-self: flex-start;
+  }
+  .bar6 {
+    align-self: flex-end;
+  }
+</style>
+
+<div class="container">
+  <div class="bar bar1"></div>
+  <div class="bar bar2"></div>
+  <div class="bar bar3"></div>
+  <div class="bar bar4"></div>
+  <div class="bar bar5"></div>
+  <div class="bar bar6"></div>
+  <div class="bar bar7"></div>
+</div>
